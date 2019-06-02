@@ -1,5 +1,4 @@
-============
-BPPS-tools
+#BPPS-tools
 ============
 Downstream analysis of mcBPPS/omcBPPS sequence comparison results
 
