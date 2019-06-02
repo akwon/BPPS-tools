@@ -7,7 +7,7 @@ import argparse
 parser = argparse.ArgumentParser()
 parser.add_argument('-lpr', type = argparse.FileType('r'), required=True) #path and filename for .lpr mcbpps output file
 parser.add_argument('-hpt', type=str, required=True) #path and filename for .hpt file used for mcbpps input
-parser.add_argument('-struct', type=str, required=True) #path and filename for .hpt file used for mcbpps input
+parser.add_argument('-struct', type=str, required=True) 
 parser.add_argument('-out', type = argparse.FileType('w'), required=True) #path and filename for output tsv file
 args = parser.parse_args()
 
