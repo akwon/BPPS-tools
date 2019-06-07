@@ -39,7 +39,7 @@ parser.add_argument('-tsv', help="output a .tsv file with annotated partition in
 parser.add_argument('-p', '--profile', help="path to MAPGAPS sequence profile (provide profile name without extension)", type = str, default = './ePKf')
 parser.add_argument('-t', '--tweakcma', help="path to tweakcma binary", type = str, default = './tweakcma')
 parser.add_argument('-m', '--mapgaps', help="path to mapgaps binary", type = str, default = './mapgaps')
-#taxonomy_db = /db/ncbi/taxonomy/latest/
+
 args, unk = parser.parse_known_args()
 if len(unk) != 1:
     sys.exit('Input file not provided')
@@ -53,6 +53,7 @@ else:
 	outfile = open(mma_path + mma_name + '.hpt.annt' , 'w')
 if args.tsv is not None:
 	tsvfile = open(args.tsv, 'w') 
+
 
 def write_cmas(mma_file): #divides partitions in '_new.mma ' file into individual '.cma' files
 	write_cmas_command = 'mkdir ' + new_directory + '; cp ' + mma_file + ' ' + new_directory + ';' + args.tweakcma + ' ' + new_directory + mma_name + ' -write'
@@ -110,7 +111,6 @@ write_cmas(input_mma)
 for set_cma in glob.glob(new_directory + mma_name + '_*.cma'):
 	write_seqs(set_cma)	
 
-
 print("2) Comparing each partition to families in the sequence profile " + args.profile + "...\n...\n...\n...\n")
 for set_seq in glob.glob(new_directory + mma_name + '_*.seq'):
 	align_seqs(set_seq)
@@ -126,6 +126,4 @@ for hptline in hptfile:
 		if args.tsv is not None:
 			tsvfile.write(set_name + '\t' + annt[0] + '\t' + str(annt[1]).replace("'", "").replace("[","").replace("]","") + '\t' + tax + '\n')
 		
-print("4) Wrote output file + " + outfile + "...\n...\n...\n...\n")
-
-
+print("4) Wrote output file: " + outfile.name + ".\n\n\n")
