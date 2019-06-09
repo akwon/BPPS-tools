@@ -20,7 +20,7 @@ pttrn2pdb.py: Map residue patterns identified through mcBPPS or omcBPPS onto PDB
   by Annie Kwon
   
   
-USAGE: pttrn2pdb.py -p -c -pdb
+USAGE: pttrn2pdb.py -p -c -pdb -chain
 
 
 
@@ -45,6 +45,7 @@ args = parser.parse_args()
 
 ###Load the PDB structure and extract the residue sequence and numbering for the specified chain
 print("\n\n\n1) Loading the PDB structure and extracting the amino acid sequence...\n...\n...\n...\n")
+def get_pdb_seq(pdbfile)
 struct_path = os.path.dirname(args.pdb.name)+'/'
 struct_name = os.path.basename(args.pdb.name).replace('.pdb','') +'_'+args.chain.strip() #names the structure and chain
 parser = PDBParser(QUIET=True)
@@ -71,7 +72,6 @@ if args.profile is not None:
 else:
 	rungaps_command = './mapgaps ePKf ' + struct_path+struct_name+'.seq + -I=0:0' #needs the '-I' option to not retain flanking segments
 FNULL = open(os.devnull, 'w')
-#subprocess.call(rungaps_command, shell=True)
 subprocess.call(rungaps_command, shell=True, stdout=FNULL, stderr=subprocess.STDOUT)
 
 #parses the cma file to get the kinase domain start position and aligned kinase domain sequence
@@ -80,15 +80,13 @@ for cmaline in cmafile:
 	if cmaline.startswith(">"):
 		find_startpos = re.search(r'(>.*){\|([0-9]+)(\()', cmaline)
 		if find_startpos is None:
-			print("Error: Incorrect cma format. Cannot detect kinase domain start position")
-			sys.exit()
+			sys.exit("Error: Incorrect cma format. Cannot detect kinase domain start position")
 		else:
 			startpos = int(find_startpos.group(2))
 		seqline = next(cmafile)
 		find_sequence = re.match(r'{\(\)([A-Za-z-]+)\(\)}\*', seqline)
 		if find_sequence is None:
-			print("Error: Incorrect cma format. Cannot detect aligned kinase domain sequence")	
-			sys.exit()		
+			sys.exit("Error: Incorrect cma format. Cannot detect aligned kinase domain sequence")		
 		else:
 			cmaseq = list(find_sequence.group(1))
  
