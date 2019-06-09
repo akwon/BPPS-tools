@@ -32,6 +32,12 @@ annt_parti.py <input>
 
 # Specify a different profile
 annt_parti.py <input> -p TK-Group
+
+
+IF RUNNING ON SAPELO:
+    module load Biopython
+    module load ete3
+    module load numpy
 """ 
 parser = argparse.ArgumentParser(description=description, usage=argparse.SUPPRESS, formatter_class=argparse.RawTextHelpFormatter)
 parser.add_argument('-o', '--output', help="output annotated .hpt file", type = str)
