@@ -33,6 +33,8 @@ annt_parti.py <input>
 # Specify a different profile
 annt_parti.py <input> -p TK-Group
 
+# Print a list of species represented in each partition and print a species tree
+annt_parti.py <input> -s -tree
 
 IF RUNNING ON SAPELO:
     module load Biopython
@@ -45,6 +47,8 @@ parser.add_argument('-tsv', help="output a .tsv file with annotated partition in
 parser.add_argument('-p', '--profile', help="path to MAPGAPS sequence profile (provide profile name without extension)", type = str, default = './ePKf')
 parser.add_argument('-t', '--tweakcma', help="path to tweakcma binary", type = str, default = './tweakcma')
 parser.add_argument('-m', '--mapgaps', help="path to mapgaps binary", type = str, default = './mapgaps')
+parser.add_argument('-s', '--species', help="print the list of species represented in each partition",action="store_true")
+parser.add_argument('-tree', help="print the species tree of species represented in each partition",action="store_true")
 
 args, unk = parser.parse_known_args()
 if len(unk) != 1:
@@ -92,10 +96,12 @@ def get_tax(cma_file): #finds the 'lowest common ancestor' of species represente
 				taxid = str(ncbi.get_name_translator([org_name])); taxid = re.sub(r'^.*\[','',taxid); taxid = re.sub(r'\].*$','',taxid)
 				if taxid != '{}' and taxid != '32630' and taxid != '10239': #omit sequences from viruses and synthetic constructs'
 					taxid_list.append(taxid)
+	tax_list = ncbi.get_taxid_translator(taxid_list)
 	tree = ncbi.get_topology(taxid_list) 
+	tree_labeled = tree.get_ascii(attributes=['sci_name', 'taxid'])
 	lca_id = str(tree.get_tree_root) ; lca_id = re.sub(r"^.*node '",'',lca_id) ; lca_id = re.sub(r"'.*$",'',lca_id)
 	lca_name = str(ncbi.get_taxid_translator([lca_id])); lca_name = re.sub(r"'}$",'',lca_name) ; lca_name = re.sub(r"^.*'",'',lca_name)
-	return(lca_name)
+	return(lca_name,tax_list,tree_labeled)
 	
 def align_seqs(seq_file):
 	mapgaps_command = args.mapgaps + ' ' + args.profile + ' ' + seq_file + ' -O'
@@ -129,8 +135,17 @@ for hptline in hptfile:
 		if set_name != 'Random':
 			annt = get_cmahits(set_name)
 			tax = get_tax(new_directory + mma_name + '_' + set_name + '.cma')
-			outfile.write(hptline.strip() + ' ' + annt[0] + str(annt[1]).replace("'", "") + '\t' + tax + '\n')
+			outfile.write(hptline.strip() + ' ' + annt[0] + str(annt[1]).replace("'", "") + '\t' + str(tax[0]) + '\n')
+			if args.species == True:
+				species_list = []
+				#for species in list(str(tax[1])):
+				for species in str(tax[1]).split(','):
+					species = re.sub(r"^.*u'",'',species); species = re.sub(r"'.*$",'',species) #do some processing to only get the species name
+					species_list.append(species)
+				print (set_name + '\t' + str(species_list) + '\n')
+			if args.tree == True:
+				print (set_name + '\n' + str(tax[2]))
 			if args.tsv is not None:
-				tsvfile.write(set_name + '\t' + annt[0] + '\t' + str(annt[1]).replace("'", "").replace("[","").replace("]","") + '\t' + tax + '\n')
+				tsvfile.write(set_name + '\t' + annt[0] + '\t' + str(annt[1]).replace("'", "").replace("[","").replace("]","") + '\t' + str(tax[0]) + '\n')
 		
 print("4) Wrote output file: " + outfile.name + ".\n\n\n")
