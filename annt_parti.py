@@ -138,7 +138,6 @@ for hptline in hptfile:
 			outfile.write(hptline.strip() + ' ' + annt[0] + str(annt[1]).replace("'", "") + '\t' + str(tax[0]) + '\n')
 			if args.species == True:
 				species_list = []
-				#for species in list(str(tax[1])):
 				for species in str(tax[1]).split(','):
 					species = re.sub(r"^.*u'",'',species); species = re.sub(r"'.*$",'',species) #do some processing to only get the species name
 					species_list.append(species)
