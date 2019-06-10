@@ -126,10 +126,11 @@ hptfile = open(mma_path + mma_name + '.hpt' , 'r')
 for hptline in hptfile:
 	if hptline.startswith('+') or hptline.startswith('-') or hptline.startswith('o'):
 		set_name = re.search(r'\..*$', hptline).group(0) ; set_name = re.sub(r'[.!?]','', set_name); set_name = re.sub(r'=.*$','', set_name)
-		annt = get_cmahits(set_name)
-		tax = get_tax(new_directory + mma_name + '_' + set_name + '.cma')
-		outfile.write(hptline.strip() + ' ' + annt[0] + str(annt[1]).replace("'", "") + '\t' + tax + '\n')
-		if args.tsv is not None:
-			tsvfile.write(set_name + '\t' + annt[0] + '\t' + str(annt[1]).replace("'", "").replace("[","").replace("]","") + '\t' + tax + '\n')
+		if set_name != 'Random':
+			annt = get_cmahits(set_name)
+			tax = get_tax(new_directory + mma_name + '_' + set_name + '.cma')
+			outfile.write(hptline.strip() + ' ' + annt[0] + str(annt[1]).replace("'", "") + '\t' + tax + '\n')
+			if args.tsv is not None:
+				tsvfile.write(set_name + '\t' + annt[0] + '\t' + str(annt[1]).replace("'", "").replace("[","").replace("]","") + '\t' + tax + '\n')
 		
 print("4) Wrote output file: " + outfile.name + ".\n\n\n")
