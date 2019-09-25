@@ -1,0 +1,108 @@
+Domain	Kingdom	Phylum	Class
+Eukaryota
+	Metazoa
+		Chordata
+			Mammalia
+			Aves
+			Reptilia
+			Amphibia
+			Osteichthyes (bony fish)
+			Chondrichthyes (cartilaginous fishes)
+			Placoderms (armored fish)
+			Agnatha (jawless fish)
+		Porifera (sponges)
+		Cnidaria (coral, jellyfish)
+		Ctenophora (comb jellies)
+		Platyhelmnthes (flatworms)
+		Nemertea (ribboon worms)
+		Rotifera (rotifers)
+		Gastrotricha (gastrotrichs)
+		Nematomorpha (horsehair worms)
+		Nematoda (round worms)
+		Acanthocephala (spiny-headed worms)
+		Bryozoa (bryozoans)
+		Tardigrada (tardigrades)
+		Brachiopoda (brachiopods)
+		Mollusca
+		Annelida (segmented worms)
+		Sipunculoidea (peanut worms)
+		Arthropoda
+		Chaetognatha (arrow worms)
+		Echinodermata
+		Hemichordata (acorn worms)
+	Fungi
+		Microsporidia
+		Chytridiomycota
+		Blastocladiomycota
+		Neocallimastigomycota
+		Glomeromycota
+		Ascomycota
+		Basidiomycota
+	Plantae
+		Chlorophtya (green algae)
+		Anthocerotophyta (nonvasular)
+		Bryophyta (nonvasular)
+		Marchantiophyta/Hepatophyta (nonvasular)
+		Pteridophyta (vascular, seedless)
+		Lycopodiophyta/Lycophyta (vascular, seedless)
+		Pinophyta/Coniferophyta (vascular, five-seeded)
+		Cycadophyta (vascular, five-seeded)
+		Ginkgophyta (vascular, five-seeded)
+		Gnetophyta	(vascular, five-seeded)	
+		Magnoliophyta/Angiospermae/Anthophyta (flowering plants)
+	Protista
+		Rhizopoda
+		Actinopoda
+		Foraminifera
+		Pyrrhophyta
+		Euglenophyta
+		Chrysophyta
+		Rhodophyta
+		Phaeophyta
+		Chlorophyta
+		Sarcomastigophora
+		Ciliophora
+		Apicomplexa
+		Oomycota
+		Acrasiomycota
+		Myxomycota
+Bacteria
+	Acidobacteria	
+	Actinobacteria	
+	Aquificae	
+	Armatimonadetes	
+	Bacteroidetes	
+	Balneolaeota	
+	Caldiserica	
+	Calditrichaeota	
+	Chlamydiae	
+	Chlorobi	
+	Chloroflexi	
+	Chrysiogenetes	
+	Cyanobacteria	
+	Deferribacteres	
+	Deinococcus-Thermus	
+	Dictyoglomi	
+	Elusimicrobia	
+	Fibrobacteres	
+	Firmicutes	
+	Fusobacteria	
+	Gemmatimonadetes	
+	Kiritimatiellaeota	
+	Lentisphaerae	
+	Nitrospira/Nitrospirae	
+	Planctomycetes/Planctobacteria	
+	Proteobacteria	
+	Rhodothermaeota	
+	Spirochaetes/Spirochaetae	
+	Synergistetes	
+	Tenericutes	
+	Thermodesulfobacteria	
+	Thermotogae	
+	Verrucomicrobia
+Archaea
+	Crenarchaeota
+	Euryarchaeota
+	Korarchaeota
+	Nanoarchaeota
+	Thaumarchaeota

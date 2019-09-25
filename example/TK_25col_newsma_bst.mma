@@ -1,0 +1,352 @@
+[0_(1)=Ret_TK(1){go=19,gx=2,pn=5.0,lf=0,rf=0}:
+(261)*********************************************************************************************************************************************************************************************************************************************************************
+
+$1=289(261):
+>XP_021019803.1  {|658(107)|}proto-oncogene tyrosine-protein kinase receptor Ret [Mus caroli] 
+{()LVLGKTLGEGEFGKVVKATAFRLKgrAGYTTVAVKMLKENASQSELRDLLSEFNLLKQVNHPHVIKLYGACSQDGPLLLIVEYAKYGSLRGFLRDSRKigpayvsgggsrnsssldhpdERVLTMGDLISFAWQISRGMQYLAEMKLVHRDLAARNILVAEGRKMKISDFGLSRDVYEEDSYVKKSKESHWGLWvklgeemhvMGLENFSkskHHVDIRFTDDDLF-------PCLGGNPYPGIPPERLFNLLKTGHRMERPDNCSEEMYRLMLQCWKQEPDKRPVFADISKDLEK()}*
+
+_0].
+[0_(1)=FGFR_TK(1){go=19,gx=2,pn=5.0,lf=0,rf=0}:
+(261)*********************************************************************************************************************************************************************************************************************************************************************
+
+$1=303(261):
+>XP_016127959.1  {|412(0)|}PREDICTED: fibroblast growth factor receptor 2-like [Sinocyclocheilus grahami] 
+{()---GKPLGEGCFGQVVMAEALGIDkdkpKEAVTVAVKMLKDDATEKDLSDLVSEMEMMKMIgRHKNIINLLGACTQDGPLYVIVEYASKGNLREYLRARRPpgmeysydiarvsDEPLTFKDLVSCTYQVARGMEYLASQKCIHRDLAARNVLVTESNFMKIADFGLARDVHNIDYYKKTTNrtkACFESKWshSPGRSQKDRIETptatalleptnittvngSNWDFWkgfisqsvprpNFGdsevmvpqkrlglvarrwsfgVLMWEIFTLGGSPYPGIPVEELFKLLKEGHRMDKPANCTNEL---------------------------()}*
+
+_0].
+[0_(1)=VEGFR_TK(1){go=19,gx=2,pn=5.0,lf=0,rf=0}:
+(261)*********************************************************************************************************************************************************************************************************************************************************************
+
+$1=274(261):
+>EMP37579.1  {|897(127)|}Vascular endothelial growth factor receptor 1 [Chelonia mydas] 
+{()LKLGKSLGCGAFGKVVEAAAFGIKnsPTCRIVAVKMLK------------------------------------GPLMVIVEYCKYGNLSNYLKSKRNfffpnkdallqveqmkekkdielvegkkqrlasvtsseslassgfqedkslsdveeeeedsddfyKWPLTMEDLISYSFQVARGMEFLSSRKCIHRDLAARNVLLSENNVVKICDFGLARDIYKNPDYVRKGD-------------------TITQPTSVQVLICTLLPLGASPYPGVQIDEdFCSRLKEGTRMRAPEYATSEIYQIMLDCWHGNPNERPRFSELVERLGD()}*
+
+_0].
+[0_(1)=PDGFR_TK(1){go=19,gx=2,pn=5.0,lf=0,rf=0}:
+(261)*********************************************************************************************************************************************************************************************************************************************************************
+
+$1=306(261):
+>XP_015261604.1  {|526(135)|}PREDICTED: platelet-derived growth factor receptor alpha [Gekko japonicus] 
+{()LVLGRILGSGAFGKVVEGTAYGLSrsQPVMKVAVKMLKPTARSSEKQALMSELKIMTHLgPHLNIVNLLGACTKSGPIYIITEYCFYGDLVNYLHKNRDnflsrnpekfkkdldifgmnsvdesnrsyvilsfenngeymdmkqaettqyvpmlerkdrskysdiqrslydrpasykkksvlvaillicdFGL--ARDIMHDSNYVSKGSTFL------------------------------------------------PVKWMAPESIFDNLYTTLSDVWSYGXXXXXEYSLGGTPYPGMMVDsTFYNKIKSGYRMAKPDHATNEVYDIMVKCWNSEPEKRPSFYLLSEIVEN()}*
+
+_0].
+[0_(1)=Kit_TK(1){go=19,gx=2,pn=5.0,lf=0,rf=0}:
+(261)*********************************************************************************************************************************************************************************************************************************************************************
+
+$1=336(261):
+>ABC46546.1  {|588(51)|}proto-oncogene c-kit receptor [Bubalus bubalis] 
+{()LSFGKTLGAGAFGKVVEATAYGLIksDAAMTVAVKMLKPSAHLTERGALMSELKVLSYLgNHMNIVNLLGACTIGGPTLVITEYCCYGDLLNFLRRKRDsficskqedhaevalyknlssfkgvflqclyyeymdmkpgvsyvvptkadkrrsarigfihrkrrdscyhgrcLAGpWTWRTCCAFLTRWQKGMAFLASKNCIHRDLAARNILLTHGRITKICDFGLARDIKNDSNYVVKGNARLPVKWMAPESIFNCaTSALLADCHAD---LQTVCASGSSPYPGMPVDsKFYKMIKEGFRMLSPEHAPAEMYDIMKTCWDADPLKRPTFKQIVQLIE-()}*
+
+_0].
+[0_(1)=CSF1R_TK(1){go=19,gx=2,pn=5.0,lf=0,rf=0}:
+(261)*********************************************************************************************************************************************************************************************************************************************************************
+
+$1=325(261):
+>CAA29666.1  {|579(72)|}unnamed protein product [Mus musculus] 
+{()LQFGKTLGAGAFGKVVEATAFGLGkeDAVLKVAVKMLKSTAHADEKEALMSELKIMSHLgQHENIVNLLGACT-hGGPVLVYTEYCCYGDHLNFLRRKAEamlgpslspgqdsegdssyknihlekkyvrrdsgfssqgvdtyvemrpvstsssdsffkqdldkehSRPLELWDLLHFSSQVAQGMAFLASKNCIHRDVAARNVLLTSGHVAKIGDFGLARDIMNDSNYVVKGNA-LPVKWMAPESIFDCVITVQSDVWSYGILLWEIFSLGLNPYPGIHVNNkFYKLVKDGYQMAQPVFAPKNIYSIMQSCWDLEPTRRPTFQQIC-----()}*
+
+_0].
+[0_(1)=Flt3_TK(1){go=19,gx=2,pn=5.0,lf=0,rf=0}:
+(261)*********************************************************************************************************************************************************************************************************************************************************************
+
+$1=337(261):
+>EPQ14566.1  {|626(48)|}FL cytokine receptor [Myotis brandtii] 
+{()LEFGKVLGSGAFGKVMNATAYGISktEVSIQVAVKMLKEKADSSEREALMSELKMMTQLgNHENIVNLLGACTQSGPVYLIFEYCCYGDLLNYLRSKREkfhrtwteifkehnfsfyptfqshpnssmpgsqevhihqdtdhisgfngnsfqpkgypdmsrqevlrnpsSQQGVAVLVLPYTPQIVRPCLTHGhlTQGCVHRDLAARNVLVTRGKVVKICDFGLARDIMSDSNYVIRGNARLPVKWMAPESLFEGIYTIKSDVWSYGILLWEIFSLGVNPYPGIPVDaNFYKLIQSGFKMDQPFYATEEIYFIMQSCWAFDSRKRPSFSNLTSCLGC()}*
+
+_0].
+[0_(1)=Tie_TK(1){go=19,gx=2,pn=5.0,lf=0,rf=0}:
+(261)*********************************************************************************************************************************************************************************************************************************************************************
+
+$1=276(261):
+>KFW94288.1  {|482(29)|}Tyrosine-protein kinase receptor Tie-1, partial [Phalacrocorax carbo] 
+{()IKFEDMIGEGNFGQVIRAMIK-KDGLKMNAAIKMLKEFASENDHRDFAGELEVLCKLgHHPNIINLLGACENKGYLYIAIEYAPYGNLLDFLRKSRVletdpafakehgtASTLTSQQLLQFASDVAKGMQYLSEKQFIHRDLAARNILVGENLASKIADFGLSRG---EEVYVKKTMGRLPVRWMAIESLNYSVYTTKSDVGTrLGAWLWPPPSLSgvfrGTPYCGMTCAELYEKLPQGYRMEKPRNCDDEVYELMRQCWRDRPYERPPFAQISMQLIR()}*
+
+_0].
+[0_(1)=EGFR_TK(1){go=19,gx=2,pn=5.0,lf=0,rf=0}:
+(261)*********************************************************************************************************************************************************************************************************************************************************************
+
+$1=260(261):
+>XP_008701798.1  {|715(237)|}PREDICTED: epidermal growth factor receptor [Ursus maritimus] 
+{()-KKIKVLGSGAFGTVYKGLWIPEGeKVKIPVAIKELREATSPKANKEILDEAYVMASVDNPHVCRLLGICLTS-TVQLITQLMPFGCLLDYVREHKD--NIGSQYCADWCLQDAlpQGMNYLEDRRLVHRDLAARNVLVKTPQHVKITDFGLAKLLGAeEKEYHAEG-GKVPIKWMALESILHRIYTHQSDVWSYGVTVWELMTFGSKPYDGIPASEISTILEKGERLPQPPICTIDVYMIMVKCWMIDADSRPKFRELIIEFSK()}*
+
+_0].
+[0_(1)=Axl_TK(1){go=19,gx=2,pn=5.0,lf=0,rf=0}:
+(261)*********************************************************************************************************************************************************************************************************************************************************************
+
+$1=285(261):
+>XP_014037718.1  {|182(117)|}PREDICTED: tyrosine-protein kinase receptor UFO-like [Salmo salar] 
+{()LTLGKTLGEGEFGSVMEGALTHED-SVLKVAVKTMKIAIcTRTEMEDFLREAACMKEFDHQNVMRLLGVCLqTvEsegyPSPVVILPFMKHGDLHSYLLYSRLgdcPVvnththththtHTHTHTHTHTHTHTHTGEEnYVFLNNFTISPPSGRNTLysrLNENMNVCVADFGLSKKIYNGDYYRQGRISKMPVKWIAIESLADRVYTTKSDVWSFGVTMWEIASRGQTPYPGVENSEIYDYLRQGNRLKQPPDCLDSIYSLMFSCWFLSPKDRPLFETLRGELQK()}*
+
+_0].
+[0_(1)=Met_TK(1){go=19,gx=2,pn=5.0,lf=0,rf=0}:
+(261)*********************************************************************************************************************************************************************************************************************************************************************
+
+$1=214(261):
+>XP_017574883.1  {|1066(5)|}PREDICTED: macrophage-stimulating protein receptor isoform X3 [Pygocentrus nattereri] 
+{()IQQHQIIGKGHFGTVYHGYLTDHINREIHCAVKSLNRITDVEEVEQFLKEGILMKGFHHSNVLSLLGVLLPdEGLPLVVLPYMKHGDLRHFIRCENRnptvkd--------LIGFGLQVAKGMEYLAMKKFVHRDLAARNCMLDESYTVKVADFGMARDVFDKEYYSIQdhRKAKLPVKWMAIESLQTQKFTSKSDVITMSLsVCLSVVVLWGSDVGAVDSW-------------------------------------------------()}*
+
+_0].
+[0_(1)=Ryk_TK(1){go=19,gx=2,pn=5.0,lf=0,rf=0}:
+(261)*********************************************************************************************************************************************************************************************************************************************************************
+
+$1=241(261):
+>XP_023281761.1  {|351(9)|}tyrosine-protein kinase RYK [Seriola lalandi dorsalis] 
+{()VTLRDVLHEGTFGRIFHGVLLDEkdPTKEKQVFVKTVKDHASEVQVTMMLTESCKLRGLHHRNLLPISHVCTEdGEKPMVLLPFMAWGNLKLFLRQCKLaeANNP----------QVSSPPTSDS---------------IDDNMQVKITDNALARDLFPMDYHCLGDNENRPVRWMALESLLNNDFSSASDVWAFGVNLWELMTLGQTPYVDIDPFEMSAYLKDGYRIAQPINCPDELFAVMACCWALDPEERPKFQQLVQCLTE()}*
+
+_0].
+[0_(1)=Ror_TK(1){go=19,gx=2,pn=5.0,lf=0,rf=0}:
+(261)*********************************************************************************************************************************************************************************************************************************************************************
+
+$1=276(261):
+>XP_017709952.1  {|472(194)|}PREDICTED: LOW QUALITY PROTEIN: tyrosine-protein kinase transmembrane receptor ROR2 [Rhinopithecus bieti] 
+{()VRFMEELGEDRFGKVYKGHLFGPApgEQTQAVAIKTLKDKAEGPLREEFRHEAMLRARLQHPNIVCLLGVVTKDQPLSMIFSYCSHGDLHEFLVMRSPhsdvgstyddriRXSPPXSPDLRApgARSPAQGW-VTYPPHVVHKDXAPRHVLVYDKLNVKILRLGGSSESVCADYYKLLGNSLLPIRWMAPEAIMYGKFSIDSDIWSYGVVLWEVFSYGLQPYCGYSNQDVVEMIRNRQVLPCPDDCPAWVYALMIECWNEFPSRRPRFKDIHSRLRA()}*
+
+_0].
+[0_(1)=Trk_TK(1){go=19,gx=2,pn=5.0,lf=0,rf=0}:
+(261)*********************************************************************************************************************************************************************************************************************************************************************
+
+$1=269(261):
+>XP_012375948.1  {|514(13)|}high affinity nerve growth factor receptor isoform X2 [Dasypus novemcinctus] 
+{()IVLKWELGEGAFGKVFLAECHNLLpdQDKMLVAVK-----------ERLARSQLVLPALLQPPILAFPVgpapcCATQRGGRQRRIRQARRCPPGALRRSHGPdakllagrqdvaPGPLGLAQLLAVASQVAAGMVYLAGLHFVHRDLATRNCLVGQGLVVKIGDFGMSRDIYSTDYYRVGGRTMLPIRWMPPESILYRKFTTESDVWSFGVVLWEIFTYGKQPWYQFSNTEAIECITQGRELERPRACPPEVYAIMRGCWQREPQQRHSIKEVYARLQA()}*
+
+_0].
+[0_(1)=Musk_TK(1){go=19,gx=2,pn=5.0,lf=0,rf=0}:
+(261)*********************************************************************************************************************************************************************************************************************************************************************
+
+$1=326(261):
+>XP_023997901.1  {|45(73)|}muscle, skeletal receptor tyrosine protein kinase-like [Salvelinus alpinus] 
+{()IEYVRDIGEGAFGRVFQARAPGLQpiSTihFTIsVCVRWRKPMCRAcleymVLRRSAEREslppppvappatqltrpslqtqlllrtggvaqaaAAEEQAFDHPNIVRLLGVCAVGKPMCLMFEYMSYGDLNEYLRRRSPtqqhslsqaslsgrsfSSelelgPLCCEEQLFISKQVAAGMAYLSERKFVHRDLATRNCLVGEEMVVKIADFGLSRNIYSADYYKANENDAIPIRWMPPESIFYNRYTTESDVWAYGVLLWEIFSHGMQPYYGMAHEEVIYYVRDGHILACPDNCPVELFNLMRLCWSGHPTDRPSFSSIHRILER()}*
+
+_0].
+[0_(1)=DDR_TK(1){go=19,gx=2,pn=5.0,lf=0,rf=0}:
+(261)*********************************************************************************************************************************************************************************************************************************************************************
+
+$1=301(261):
+>XP_018946140.1  {|667(6)|}PREDICTED: epithelial discoidin domain-containing receptor 1-like [Cyprinus carpio] 
+{()LVFKEKLGEGQFGEVQLWITLTLQinsnssytsylnvlsFPLLLLISHSFH--ALFFIRNDFLKEVKILSRLKDPNIIRLLGVCVSSDPLCMVTEYMESGDLNQYLSHRVLldktgpahnTPTISYPALISMASQIASGMKFLSSLNFVHRDLATRNCLVGGERGegedrggerqIKIADFGMSRNLYAGDYYRIQGRAVLPIRWMAWECILMGKFTTASDVWAFGVTLWEMLSVcQEQPYSHMTDEQVIDNAGEFFRdqgrqvyLSRPAVCPQGLYELMLSCWSRDCKLRPSFAYIHSFLTE()}*
+
+_0].
+[0_(1)=InsR_TK(1){go=19,gx=2,pn=5.0,lf=0,rf=0}:
+(261)*********************************************************************************************************************************************************************************************************************************************************************
+
+$1=270(261):
+>KFO64687.1  {|981(90)|}Insulin receptor, partial [Corvus brachyrhynchos] 
+{()ITLLRELGQGSFGMVYEGIAKDIVkgEPETRVAVKTVNESASLRERIEFLNEASVMKGFSCHHVVRLLGVVSKGQPTLVVMELMAHGDLKSYLRSLRPeaennpgRPPPTLREMIQMAAEIADGMAYLNAKKFEKGNVLNVNHEVTDECRLGFGNFGMTRDIYETDYYRKGGKGLLPVRWMAPESLKDGVFTTYSDVWSFGVVLWEISSLAEQPYQGLSNEQVLKFVMDGGYLDQPDNCPERLHSLMQMCWQYNPKMRPTFIEIIEMLKE()}*
+
+_0].
+[0_(1)=Sev_TK(1){go=19,gx=2,pn=5.0,lf=0,rf=0}:
+(261)*********************************************************************************************************************************************************************************************************************************************************************
+
+$1=271(261):
+>XP_006734620.1  {|1812(131)|}PREDICTED: LOW QUALITY PROTEIN: proto-oncogene tyrosine-protein kinase ROS [Leptonychotes weddellii] 
+{()LTLRLLLGSGAFGEVYEGAAVDILgagSGETKVAVKTLKKGSTDQEKIEFLKEAHLMSKFNHPNILKQLGVCLLNEPQYIILELMEGGDLLTYLRKARMtkAAKLSLGSAEGPPLHPLRYPKIIIKYSFCHRDLAARNCLVSvkdytsPSRVVKIGDFGLARDIYKNDYYRKTGEGLLPVRWMAPESLMDGIFTTQSDVWSFGILIWEILTLGHQPYPTHSNLDVLNYVQTGGRLEPPRNCPDDLWDLLTQCWAQEADRRPTFHKIQDQLQ-()}*
+
+_0].
+[0_(1)=ALK_TK(1){go=19,gx=2,pn=5.0,lf=0,rf=0}:
+(261)*********************************************************************************************************************************************************************************************************************************************************************
+
+$1=271(261):
+>XP_019500405.1  {|495(113)|}PREDICTED: LOW QUALITY PROTEIN: leukocyte tyrosine kinase receptor [Hipposideros armiger] 
+{()VTLLRALGHSAFGEVYEGLVIGLPgdLSPLQVTTKTLPELCSHQDXLDFLMEVLIISKFSHQNIVRCVGLSLRAAPRLIXLELMSGGDMKSFLRHSRPhlgqLSPLAMQDLLQLAQDIAQGCHYLEENHFIHRDIAARNCLLsctGPSRVAKIGDFAMARDIYRASYYRKGXQALLPVKWMPPEAFLEGIXTSKTDTWSFGVPLWEIFSLGYMPYPGXTNQEVLDFVVKGdGRMDPPRGCPGPGYRIMTQCXQHQPELSPSLASILERLQY()}*
+
+_0].
+[0_(1)=CCK4_TK(1){go=19,gx=2,pn=5.0,lf=0,rf=0}:
+(261)*********************************************************************************************************************************************************************************************************************************************************************
+
+$1=268(261):
+>XP_026539626.1  {|777(7)|}inactive tyrosine-protein kinase 7 [Notechis scutatus] 
+{()LQTITPLGKGEFGDVFLAKAKGIEDndTEVLVLVKSLQ-SRDEQLQLAFRQESEMFGKLNHSNVVRLLGLCREAEPHYMILEYVDLGDLKQFLRISTTkdenlkPQPISTKQKLSFCCQVALGMEHLSNSRFVHKDLAARNCLVSAQRQVKVAKLSLSKDVYNSEYY-HYHQAWIPLRWMTPEAVLEDEFSTKSDVWSFGVVMWEIFTLGELPHSSLVNEEVLAGLQSGKMkLPHPEGCPSKCYKLMQRCWAQSPKDRPSFSEIANMLGE()}*
+
+_0].
+[0_(1)=Lmr_TK(1){go=19,gx=2,pn=5.0,lf=0,rf=0}:
+(261)*********************************************************************************************************************************************************************************************************************************************************************
+
+$1=273(261):
+>RXM37363.1  {|100(1295)|}Serine/threonine-protein kinase LMTK1 [Acipenser ruthenus] 
+{()LLYLKEIGHGWFGKVLLGEVN-AGLSTTQVVVKELKASASVQDQMQFLEEVQPYRWESHRKRETEQSMCSEVTPYLLVMEFCPLGDLKGYLRSCRAADSMTPDPLtlQRMACEIASGLLHLHKYNFVHSDLALRNCLLTAEVTVKIGDYGLSHNKYKDDYFVTVDQLWVPLRWIAPElidevhgNLLVVDQTKPSNIWSLGVTIWELFELGNQPYRHYSDSQVLTYAIKEQQLKLPKPllklpLSERWYEVLQFCW-LQPDQRPTAEEVHLLLTY()}*
+
+_0].
+[0_(1)=Eph_TK(1){go=19,gx=2,pn=5.0,lf=0,rf=0}:
+(261)*********************************************************************************************************************************************************************************************************************************************************************
+
+$1=262(261):
+>XP_024281011.1  {|581(475)|}LOW QUALITY PROTEIN: ephrin type-B receptor 3-like [Oncorhynchus tshawytscha] 
+{()VKIEEVIGAGEFGEVCRGRLKLPGRREIIVAIKTLKVGYTDRQRRDFLSEASIMGQFDHPNIIRLEGVVTKSRPVMIVTEFMENGALDSFLRLND--GQFTVIQLVGMLRGIAAGMKYLSDMNYVHRDLAARNILVNSNLVCKVSDFGLSRFLEDdatDPTYTSSlG-GKIPIRWTAPEAIAYRKFTLASCVWSYWQLLWEVMSYGERPYWDMSNQEVINAVEQDYRLPPPMDCPTALHQLMLDCWVKERNLRPKFSQIVATLDK()}*
+
+_0].
+[0_(1)=SrcA_Src_TK(1){go=19,gx=2,pn=5.0,lf=0,rf=0}:
+(261)*********************************************************************************************************************************************************************************************************************************************************************
+
+$1=238(261):
+>XP_015671231.1  {|265(15)|}PREDICTED: proto-oncogene tyrosine-protein kinase Src [Protobothrops mucrosquamatus] 
+{()LRLEVKLGQGCFGEVWMGTWN---GTT-RVAIKTLK--------------GPCYRGLRKDVLRVQYFFDAFE---FLTTFYSTVGSLLDFLKGEMG-KYLRLPQLVDMAAQIASGMAYVERMNYVHRDLRAANILVGENLVCKVADFGLARLIE-DNEYTARQGAKFPIKWTAPEAALYGRFTIKSDVWSFGILLTELATKGRVPYPGMVNREVLDQVERGYRMPCPPECPESLHDLMCQCWRKDPEERPTFEYLQAFLED()}*
+
+_0].
+[0_(1)=SrcB_Src_TK(1){go=19,gx=2,pn=5.0,lf=0,rf=0}:
+(261)*********************************************************************************************************************************************************************************************************************************************************************
+
+$1=211(261):
+>XP_006751505.1  {|151(13)|}PREDICTED: tyrosine-protein kinase Lyn-like, partial [Leptonychotes weddellii] 
+{()IKLVKRLGAGQFGEVWMGSYN---NST-KVAVKTLKPGTMSVQ--AFLEEANLMKTLQHDKLVRLYAVVTREEPIYIITEYMAKGSLLDFLKSEEG-GKVLLPKLIDFSAQNLKDMS-------------------------------------------SPLGAKFPIKWTAPEAINFGCFTIKSDVWSFGILLYEIVTYGKIPYPGRTNADVMTALSQGYRMPRMENCPDELYDIMKMCWKEKAEERPTFDYLQSVLDD()}*
+
+_0].
+[0_(1)=Frk_Src_TK(1){go=19,gx=2,pn=5.0,lf=0,rf=0}:
+(261)*********************************************************************************************************************************************************************************************************************************************************************
+
+$1=242(261):
+>XP_002742020.1  {|234(16)|}PREDICTED: tyrosine-protein kinase Src42A-like [Saccoglossus kowalevskii] 
+{()---IRKLGSGQFGDVFEGLWN---TTT-PVAVKQLRKGTMDPS--DFLREAEIMKKLRHPKLVQLYAVCTLQEPIYIVTELMNNGSLLDYLQ-GGG-RKLKLPQLIDMSAQIASGMAYLESQNYIHRDCVIFNDLFKPVNNLSIS-------FQ-EDEYEARVGAKFPIKWTAPEAANYNRFTIKSDVWSFAILLTEIITYGRVPYPGMTNAEVLHQVDHGYRMPCPPGCPEALYQIMLECWKKEEMERPTFETLQWKLED()}*
+
+_0].
+[0_(1)=Tec_TK(1){go=19,gx=2,pn=5.0,lf=0,rf=0}:
+(261)*********************************************************************************************************************************************************************************************************************************************************************
+
+$1=252(261):
+>XP_010364378.1  {|420(11)|}PREDICTED: cytoplasmic tyrosine-protein kinase BMX [Rhinopithecus roxellana] 
+{()ITLLKELGSGQFGVVQLGKWK----GQYDVAVKMIKEGSMSED--EFFQEAQTMTKLSHPKLVKFYGVCSKEYPIYIVTEYISNGCLLNYLRSHGK-GLE-PSQLLEMCYDVCEGMAFLESHQFIHRDLAARNCLVDSDLCVKVSDFGMTRYVL-DDQYVSSVGTKFPVKWSAPEVFHYFKYSSKSDVWAFGILMWEVFSLGKQPYDLYDNSQVVLKVSQGHRLYRPYLASDTIYQIMYSCWHEASVSSGWAGRGLKHIRD()}*
+
+_0].
+[0_(1)=Abl_TK(1){go=19,gx=2,pn=5.0,lf=0,rf=0}:
+(261)*********************************************************************************************************************************************************************************************************************************************************************
+
+$1=240(261):
+>CAF99203.1  {|613(612)|}unnamed protein product, partial [Tetraodon nigroviridis] 
+{()ITMKHKLGGGQYGEVYEGVWK---KYNLTVAVKTLKEDTMEVE--EFLKEAAVMKEIKHPNLVQLLGVCTREPPFYIITEFMTHGNLLDYLRECNR-EEVNAVVLLYMATQISSAMEYLEKKNFIHRDFSGPE-LPG-------------RLMT-GDTYTAHAGAKFPIKWTAPESLAYNKFSIKSDVWAFGVLLWEIATYGMSPYPGIDLSLVYELLEKDYRMDRPEGCPEKVYELMTACWRWIPAERPSFAETHQAFET()}*
+
+_0].
+[0_(1)=SRM_Src_TK(1){go=19,gx=2,pn=5.0,lf=0,rf=0}:
+(261)*********************************************************************************************************************************************************************************************************************************************************************
+
+$1=295(261):
+>XP_021110908.1  {|217(12)|}LOW QUALITY PROTEIN: tyrosine-protein kinase Srms [Heterocephalus glaber] 
+{()FVLWRKLGEGCFGEVWEGLWL---GSV-PLVVNVIkPGEAvlpqvpqpglgqcplpsdpgdargrgsgglgspgaeaspaadMKLA--EFTKEIAALKSLRHERLMWLHVVCSTGEPVYIITEVLCKGSLQAYLGTlspcrPRG-PALSLPLLLSFTCQVAEAMSYLEEWHIVHRDLAARNVLVGNDLT-----FGLARLLK-DDIYsPSSS-SKIPVKWTAPEAANYHIFSHKSDVWSFGILLYEVFTYGQCPFEGvMTNHETLWQLSCGYQLPCPAACPVEVYLLLLECWKGSPEERPAFAMLREKL--()}*
+
+_0].
+[0_(1)=Src-Aque1_Src_TK(1){go=19,gx=2,pn=5.0,lf=0,rf=0}:
+(261)*********************************************************************************************************************************************************************************************************************************************************************
+
+$1=252(261):
+>XP_011404451.1  {|903(15)|}PREDICTED: uncharacterized protein LOC105313037 [Amphimedon queenslandica] 
+{()LEFSNCINAGQFGEIFKGDCK---GIG-PVTIKTNIATNFTQE--TFLEETNMLEKFYHKNIISLYGICIEDYPFYIVTEPI-NQNLRNHVNMNKL-TL---AELVDIAIQVTDGMIYLGEQDYIHCDLRAENVLLRDhHNTVKIANFHFALHLK-GKKYwTAEEGTTklAALKWIAPEWHTLKRLSIKSDVWSFGILLWEMVAKEKnELYSGMTNEEVWEAVLKGHHKFIPKDCPEPFKQLMANCWKQNDDERPNFNNILVDL--()}*
+
+_0].
+[0_(1)=Csk_TK(1){go=19,gx=2,pn=5.0,lf=0,rf=0}:
+(261)*********************************************************************************************************************************************************************************************************************************************************************
+
+$1=246(261):
+>XP_027683956.1  {|194(8)|}tyrosine-protein kinase CSK [Chelonia mydas] 
+{()LKLLQIIGKGEFGGQL----------GSALVLCPPPAEAPEAL--RGREEPSVLTHrqLRHSNLVQLLGVIVEEKsGLYIVTEYMAKGSLVDYLRSRGR-SVLGGDCLLKFCLDVCEAMEYLEANNFVHRDLAARNVLVSEDNIAKVSDFGLTKEAS-----STQDTGKLPVKWTAPEALREKKFSTKSDVWSFGILLWEIYSFGRVPYPRIPLKDVVPRVEKGYKMDAPDGCPQVVYEVMKNCWTLDPVIRPSFHQLREQLEH()}*
+
+_0].
+[0_(1)=other-Fer_TK(1){go=19,gx=2,pn=5.0,lf=0,rf=0}:
+(261)*********************************************************************************************************************************************************************************************************************************************************************
+
+$1=257(261):
+>XP_023851358.1  {|565(11)|}LOW QUALITY PROTEIN: tyrosine-protein kinase Fes/Fps-like [Salvelinus alpinus] 
+{()VILGQSIGRGNFGEVYSGRLL-SDNX--PVAVKACRENLAPEHKNRFLwRPGQILKQYDHPNIVKLIGVCTQKQPIYIIMELVQGGDFLSFLRXEGH--NLKSNMLVKMAENVhLHGV--LESKKCIHRDwqpTXYRHRLVGEQSRVKISDFGMSREqqDG---VYSAAGgLKQIPVKWTAPEALNYGRYTTESDMWSFGVLLWEIFSRGVTPYTSMSNQQTRDEVEKGYRMLAPNSCPPDVYAIMCRCWQYNSRNRPSFSELRTEL--()}*
+
+_0].
+[0_(1)=nematode-Fer_TK(1){go=19,gx=2,pn=5.0,lf=0,rf=0}:
+(261)*********************************************************************************************************************************************************************************************************************************************************************
+
+$1=256(261):
+>PAV81689.1  {|198(6)|}hypothetical protein WR25_04722 [Diploscapter pachys] 
+{()IVIVKKLGEGAFGEVFLAEFE-NGkGGKIEVAVKTMRsE-ATRDARLKFMKEARLMRKYSHKHVVKILGVAVHEHPLMLIMEVCHNGALLSYLRKNAG--KIDLREKLRFCVEASDGLAYLEKKQCIHRDIAARNCLLSskmaRDLNRKKND------RS---IIHDDTLNKVPVKWLAPETLTDKIYSLKSDVWAFGVLIWEIYSDGSEPYKGMSNVQARAKVVSqGYRMPSPAGVPKEIGDLLHqKIWVKNPAERIDMTKCQKKLHE()}*
+
+_0].
+[0_(1)=FAK_TK(1){go=19,gx=2,pn=5.0,lf=0,rf=0}:
+(261)*********************************************************************************************************************************************************************************************************************************************************************
+
+$1=272(261):
+>XP_024650728.1  {|506(348)|}focal adhesion kinase 1 [Macaca nemestrina] 
+{()IELGRCIGEGQFGDVHQGVYMSPENPALAVAIKTCKNCTSDSVREKFLQEA--CKFLEISVELHLIFYLENfmqeetsakdssdgfpDESCWDNHgSMCTLGELRSFLQVRKY--SLDLASLILYAYQLSTALAYLESKRFVHRDIAARNVLVSSNDCVKLGDFGLSRYMEDSTYYKASK-GKLPIKWMAPESINFRRFTSASDVWMFGVCMWEILMHGVKPFQGVKNNDVIGRIENGERLPMPPNCPPTLYSLMTKCWAYDPSRRPRFTELKAQLS-()}*
+
+_0].
+[0_(1)=Syk_TK(1){go=19,gx=2,pn=5.0,lf=0,rf=0}:
+(261)*********************************************************************************************************************************************************************************************************************************************************************
+
+$1=234(261):
+>BAC67015.1  {|51(24)|}Truncated ZAP Kinase-2 [Mus musculus] 
+{()-------------------------KQIDVAIKVLKQGTEKADKDEMMREAQIMHQLDNPYIVRLIGVCQ-AEALMLVMEMAGGGPLHKFLLGKKE--EIPVSNVAELLHQVAMGMKYLEEKNFVHRDLAARNVLLVNRHYAKISDFGLSKALGADdSYYTARSAGKWPLKWYAPECINFRKFSSRSDVWSYGGHHVEAFSYGQKPYKKMKGPEVLDFIKQGKRMECPPECPPEMYALMSDCWIYKWEDRPDFLTVEQRMRN()}*
+
+_0].
+[0_(1)=Jak_TK(1){go=19,gx=2,pn=5.0,lf=0,rf=0}:
+(261)*********************************************************************************************************************************************************************************************************************************************************************
+
+$1=278(261):
+>XP_015425062.1  {|853(7)|}PREDICTED: LOW QUALITY PROTEIN: tyrosine-protein kinase JAK3 [Myotis davidii] 
+{()LKYISQLGKGNFGSVELCRYDPLGdNTGALVAVKQLQHSG-PDQQRDFQREIQILKALHSDFIVKYRGVSYGpgRQSLRLVMEYLPSGCLRDFLQRHQSRSGWRWVILGSGPHVRRQGMEYLGSRRCVHRDLAARNILVESETHVKIADFGLAKLLPLDkDYYVVREPGQSPIFWYAPESLSDNIFSRQSDVWSFGVVLYELFTYsdkscspsaeflrmmGCERDVPALC-RLLDLLAEGQRLPAPPACPGEVHELMKLCWAPSPQDRPSFSTLGPQLEA()}*
+
+_0].
+[0_(1)=JakB_TK(1){go=19,gx=2,pn=5.0,lf=0,rf=0}:
+(261)*********************************************************************************************************************************************************************************************************************************************************************
+
+$1=261(261):
+>XP_007653935.1  {|469(187)|}PREDICTED: LOW QUALITY PROTEIN: tyrosine-protein kinase JAK3, partial [Ornithorhynchus anatinus] 
+{()----ENLGHGSFTKIYRGTRRDmadEETRETEVLLKVMDST-HQNCSEVTTGPXALGSFPSRGRYLATGGIAVKPNNNnnnnsIMVQEFVRFGALDTHLKK--HTPNITASWKLQVAKQLAYALNYLEDRRIVHGNVSAKKVLLAREGdgasgsppFIKLSDPGVSPAV----LAKELLTDRI--PWVAPECLwDPKSLSLEADKWSFGATVWEIFSGGTMPLSTLEPAEKLQFYKKQHQLPAPKWT--ELANLIGQCMDYSPPRRPSFRAVIRDL--()}*
+
+_0].
+[0_(1)=Ack_TK(1){go=19,gx=2,pn=5.0,lf=0,rf=0}:
+(261)*********************************************************************************************************************************************************************************************************************************************************************
+
+$1=254(261):
+>XP_010144568.1  {|31(31)|}PREDICTED: activated CDC42 kinase 1, partial [Buceros rhinoceros silvestris] 
+{()--------QGVFWVVRLGEWCAPSGKTLNVAVKCLKTDVlsQPEALDDFIREVNAMHSLDHRNLIRLYGVVL-SHPMKMVTELAPLGSLLDRLRKNQG--HFLISTLCQYAIQVAKGMAYLESKRFIHRDLAARNILLASNELVKIGDFGLMRALPKNdDHYVMQEHRKVPFAWCAPESLKTRTFSHASDTWMFGVTLWEMFTYGQEPWIGLNGSQILHKIDkEGERLPRPEDCPQDVYNVMLQCWAHKPEDRPTFVALRDFLVE()}*
+
+_0].
+[0_(1)=STYK1_TK(1){go=19,gx=2,pn=5.0,lf=0,rf=0}:
+(261)*********************************************************************************************************************************************************************************************************************************************************************
+
+$1=243(261):
+>XP_026858101.1  {|151(39)|}tyrosine-protein kinase STYK1-like [Electrophorus electricus] 
+{()------------------------KDQRAVILRVLKATANTREHQAFLGFAHFLSDLgPHPCLPLLLGPVTVGPPLIMVMEELVNRDLLGFLWRYRQehahrtaTCNITEKQIFIMGGHIASALEFLHSKNCTHGNVQARSVLVGQDLSVKLWGFGPAFHRRMEAGSSAEIELMEMRKWQAPEVLAHRPVSHSSDIWSFGILLYEMVTFGEPPFPKIMACELLQHLQRGKSLQRPANCSISLYSNMKACCQWRPQDRPTLTDLISKL--()}*
+
+_0].
+[0_(1)=TK-Sp1_TK(1){go=19,gx=2,pn=5.0,lf=0,rf=0}:
+(261)*********************************************************************************************************************************************************************************************************************************************************************
+
+$1=245(261):
+>PIK37378.1  {|183(63)|}putative fibroblast growth factor receptor-like [Apostichopus japonicus] 
+{()VIIEQKLGEGEFGVVHMGKVT--GMKnkveDVTVAIKTTKVGAFSDVKEDLINEMKLIAELgDHVNILCLLACCSMNEPFYLITEYMKYGDLLGFLRDCRKlasaerdqVYSVGELQQLIIARDIANGMAHIQERRFYHGDLAARNVLVGEGLAIKIPDFGLADDIYTRGYKRRATEQKIPVKWCSLETIINGICSSEGDALSFGVLLYEIFTLGGTPYPCISPRLLVSQLKNGYRMDQPGSCPDDV---------------------------()}*
+
+_0].
+[0_(1)=HMTK_TK(1){go=19,gx=2,pn=5.0,lf=0,rf=0}:
+(261)*********************************************************************************************************************************************************************************************************************************************************************
+
+$1=264(261):
+>XP_001748833.1  {|545(48)|}hypothetical protein [Monosiga brevicollis MX1] 
+{()LTAIRPLGAGQFGEVYLARQTLDDgtea----LRAIKMLRGVASAEDRKEFLHEAELMASLKSDMLNGLAGVCAAQPPWLMVLEFCQDGDLLSHLESMRTrRRTMLLSEQLRAGADLAKGLQYLASQRLVHLDVAARNCLLHHNGL-KLADFGTTRRYDEGkRYHRLRVAMKLSIRWLAPEAMGppPKLLGEWSDVWAWGVVMHELFSYGRRPYRRLPIKAVPQAVLNGERLAKDDACPDDVYDLMSRCWIRKVRERPSFANIVEELDA()}*
+
+_0].
+[0_(1)=KIN16_TK(1){go=19,gx=2,pn=5.0,lf=0,rf=0}:
+(261)*********************************************************************************************************************************************************************************************************************************************************************
+
+$1=313(261):
+>CAP35165.2  {|1066(68)|}Protein CBG17535 [Caenorhabditis briggsae] 
+{()LEICEKIGSGMFGFVNKGYLSMADpksqieyKTRLPVAIKSTKKSFDMELQTMLFEELKIMCAIeKHPNVISLIGAVTtNmrKGEFYLVTEYADNGDLLNYLRKHREtfhntlidmeepvvnenysvpsqqieytrllpsSDILSTADLLSFALQIANGMEFLAAVPV-----RILIILTSSNSSISVCPSRFSctkcidhilKNLQNCRFWtCQTikngKQVTLPVRWMAPESVQTYKFTEKTDVWSYGITLYEIFTLGNRPYAQVPNEQLEEFLRSGMRNEQPEYCHDDLYALMKNCWHKSPDVRPNFNTCVHYLK-()}*
+
+_0].
+[0_(1)=KIN6_TK(1){go=19,gx=2,pn=5.0,lf=0,rf=0}:
+(261)*********************************************************************************************************************************************************************************************************************************************************************
+
+$1=290(261):
+>PAV63945.1  {|92(2)|}hypothetical protein WR25_18778 [Diploscapter pachys] 
+{()VHDNIILGNGAFANVYKGTLIGKIpllmvnqglglalESEklneVEAAVKRLPAHADEQNRLDFFHEIEFMKRLgYHTHIISMLGCISNPYDPMIVVEYCAKGDMLKFLRNHRDyllmdkddtcpihaDMCLRVKDLVSFAWQVSDGMNYLSSKSFIHRDLAARNILLTKNLVAKISDFGLCRYVDS-ALYT-AKGGRLPIKWMSIESLKFYEYSSASDVWSFGVLLFEIFSMGDGPYPMIQPLDMIKYLEAGKRLEQPETCPNEIYNIMERCWNADKDARPKFAEASSLSA-()}*
+
+_0].
+[0_(1)=REF_TK(1){go=19,gx=2,pn=5.0,lf=0,rf=0}:
+(261)*********************************************************************************************************************************************************************************************************************************************************************
+
+$1=319(261):
+>XP_026492290.1  {|418(39)|}fibroblast growth factor receptor 3-like [Vanessa tameamea] 
+{()-HLGALIGSGAFGRVHAAQLD--MagGETITVAAKMLSDNATEEEMQDFLREIAMLKHVgSHQHVIRLIACCTRRSPLIALLEHAPRGDLLTLLRAARGrrhideqktsesisdggangrpseadteytnlsdsdppicgnsedklyidanqpksndhyvaepALQLDSATMREYALQVALGMQHLEERGITHRDLAARNILVDGAGVLKVADFGLSRSGV----YVHTRSRPVPLRWLAPEAIYNSKYWSASDVWAFAVLLWEIATLGGFPYAELS-NReVPQFLTDGGRLPKPARASPRLYQLMTECWSENAQDRPTFSEIVEKL--()}*
+
+_0].
+[0_(1)=RTKC_TK(1){go=19,gx=2,pn=5.0,lf=0,rf=0}:
+(261)*********************************************************************************************************************************************************************************************************************************************************************
+
+$1=255(261):
+>XP_004991762.1  {|1161(282)|}TK protein kinase [Salpingoeca rosetta] 
+{()---LDVLGAGHWGEVAKGILEEHKqagIPGFLVAIKMLK-TDSIDSQDELMREAAFMAQLNNDFVVKLYGVCTFGGPMMMVMEYCEHGSLQGHLRQTD----MSVEQITQIMCDAASGLLYLSSRAVVHRDVASRNVLLSSEWRGRIADFGMSRESEAeSAYYHSRG-GAVPVRWSAPEALEDHKFSEKSDVWSFGILCYEGFTKAELPYKGMSNQKVWVSVMDGFRLPRPDSCPENMYDLMRSCWMQRADERPTFQQIVDTLQ-()}*
+
+_0].

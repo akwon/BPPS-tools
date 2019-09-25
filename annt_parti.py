@@ -54,7 +54,7 @@ args, unk = parser.parse_known_args()
 if len(unk) != 1:
     sys.exit('Input file not provided')
 input_mma = unk[0]
-mma_path = os.path.dirname(input_mma)+'/'
+mma_path = './' + os.path.dirname(input_mma) + '/'
 mma_name = os.path.basename(input_mma).replace('.mma','')
 new_directory = mma_path + 'partition_cmas/'
 if args.output is not None:
