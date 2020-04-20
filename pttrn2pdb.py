@@ -41,41 +41,47 @@ parser.add_argument('-o', '--output', type = argparse.FileType('w'), help="path 
 parser.add_argument('-n', '--category_name', type = str, help="name(s) of BPPS set to be mapped. Names should be alphanumeric with words separated by underscores (i.e. EphA3_Eph_TK). As default, category numbers are used as names. Multiple names may be provided in a comma-separated list (should be listed in the same order as the category numbers provided in the '-c' option.") 
 parser.add_argument('-s', '--color', type = str, help="colorscale(s) ['blue','purple','green','gray'] of residue sets to be mapped.  Multiple colors may be provided in a comma-separated list (should be listed in the same order as the category numbers provided in the '-c' option.") 
 parser.add_argument('-profile', type = str, default="ePKf", help="path and name of sequence profile (should be the same alignment/profile that was used in the mcBPPS/omcBPPS analysis). Uses the ePKf profile by default.") 
+parser.add_argument('-cma', type = argparse.FileType('r'), help="path and name of a cma-aligned pdb sequence. The cma alignment should correspond to the same profile used in the BPPS analysis. Providing this skips run_gaps steps.") 
 args = parser.parse_args()
 
 ###Load the PDB structure and extract the residue sequence and numbering for the specified chain
 print("\n\n\n1) Loading the PDB structure and extracting the amino acid sequence...\n...\n...\n...\n")
-def get_pdb_seq(pdbfile)
-struct_path = os.path.dirname(args.pdb.name)+'/'
-struct_name = os.path.basename(args.pdb.name).replace('.pdb','') +'_'+args.chain.strip() #names the structure and chain
-parser = PDBParser(QUIET=True)
-structure = parser.get_structure('input_structure', args.pdb) 
-chain = structure[0][args.chain]
-residues = chain.get_residues()
-res_num_list = []; res_seq_list = []
-for res in residues:
-	fullid = res.get_full_id() 
-	res_num = (fullid[3])[1] #parses the residue number 
-	res_num_list.append(res_num) 
-	res_type = res.get_resname() #gets the residue type in three-letter aa code
-	res_seq = seq1(res_type, undef_code='X') #converts to one-letter aa code
-	res_seq_list.append(res_seq)
-seqfile = open(struct_path+struct_name+'.seq', 'w') #writes PDB sequence to a new file
-seqfile.write('>'+struct_name+'\n'+''.join(res_seq_list))
-seqfile.close()
+def get_pdb_seq(pdbfile):
+	struct_path = os.path.dirname(args.pdb.name)+'/'
+	struct_name = os.path.basename(args.pdb.name).replace('.pdb','') +'_'+args.chain.strip() #names the structure and chain
+	parser = PDBParser(QUIET=True)
+	structure = parser.get_structure('input_structure', args.pdb) 
+	chain = structure[0][args.chain]
+	residues = chain.get_residues()
+	res_num_list = []; res_seq_list = []
+
+	for res in residues:
+		fullid = res.get_full_id() 
+		res_num = (fullid[3])[1] #parses the residue number 
+		res_num_list.append(res_num) 
+		res_type = res.get_resname() #gets the residue type in three-letter aa code
+		res_seq = seq1(res_type, undef_code='X') #converts to one-letter aa code
+		res_seq_list.append(res_seq)
+	seqfile = open(struct_path+struct_name+'.seq', 'w') #writes PDB sequence to a new file
+	seqfile.write('>'+struct_name+'\n'+''.join(res_seq_list))
+	seqfile.close()
 #print(res_num_list);print(len(res_num_list));print(res_seq_list);print(len(res_seq_list))
 
-#runs run_gaps on the PDB sequence using ePKf profile (or a profile specified by the '-profile' option)
+#if a pre-aligned cma is not specified by the -cma option, runs run_gaps on the PDB sequence using ePKf profile (or a profile specified by the '-profile' option)
 print("2) Aligning the PDB sequence to the consensus alignment...\n...\n...\n...\n")
-if args.profile is not None:
-	rungaps_command = './mapgaps ' + args.profile + ' ' + struct_path+struct_name+'.seq -I=0:0'
-else:
-	rungaps_command = './mapgaps ePKf ' + struct_path+struct_name+'.seq + -I=0:0' #needs the '-I' option to not retain flanking segments
-FNULL = open(os.devnull, 'w')
-subprocess.call(rungaps_command, shell=True, stdout=FNULL, stderr=subprocess.STDOUT)
+if args.cma is None:
+	if args.profile is not None:
+		rungaps_command = './mapgaps ' + args.profile + ' ' + struct_path+struct_name+'.seq -I=0:0'
+	else:
+		rungaps_command = './mapgaps ePKf ' + struct_path+struct_name+'.seq + -I=0:0' #needs the '-I' option to not retain flanking segments
+	FNULL = open(os.devnull, 'w')
+	subprocess.call(rungaps_command, shell=True, stdout=FNULL, stderr=subprocess.STDOUT)
 
 #parses the cma file to get the kinase domain start position and aligned kinase domain sequence
-cmafile = open(struct_path+struct_name+'.seq_A.mma', 'r')
+if args.cma is not None:
+	cmafile = args.cma
+else:
+	cmafile = open(struct_path+struct_name+'.seq_A.mma', 'r')
 for cmaline in cmafile:
 	if cmaline.startswith(">"):
 		find_startpos = re.search(r'(>.*){\|([0-9]+)(\()', cmaline)
