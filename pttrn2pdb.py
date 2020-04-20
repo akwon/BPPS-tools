@@ -46,34 +46,36 @@ args = parser.parse_args()
 
 ###Load the PDB structure and extract the residue sequence and numbering for the specified chain
 print("\n\n\n1) Loading the PDB structure and extracting the amino acid sequence...\n...\n...\n...\n")
-def get_pdb_seq(pdbfile):
-	struct_path = os.path.dirname(args.pdb.name)+'/'
-	struct_name = os.path.basename(args.pdb.name).replace('.pdb','') +'_'+args.chain.strip() #names the structure and chain
-	parser = PDBParser(QUIET=True)
-	structure = parser.get_structure('input_structure', args.pdb) 
-	chain = structure[0][args.chain]
-	residues = chain.get_residues()
-	res_num_list = []; res_seq_list = []
+#def get_pdb_seq(pdbfile):
+struct_path = os.path.dirname(args.pdb.name)+'/'
+struct_name = os.path.basename(args.pdb.name).replace('.pdb','')
+chain_name = os.path.basename(args.pdb.name).replace('.pdb','') +'_'+args.chain.strip() #names the structure and chain
+parser = PDBParser(QUIET=True)
+structure = parser.get_structure('input_structure', args.pdb) 
+chain = structure[0][args.chain]
+residues = chain.get_residues()
+res_num_list = []; res_seq_list = []
 
-	for res in residues:
-		fullid = res.get_full_id() 
-		res_num = (fullid[3])[1] #parses the residue number 
-		res_num_list.append(res_num) 
-		res_type = res.get_resname() #gets the residue type in three-letter aa code
-		res_seq = seq1(res_type, undef_code='X') #converts to one-letter aa code
-		res_seq_list.append(res_seq)
-	seqfile = open(struct_path+struct_name+'.seq', 'w') #writes PDB sequence to a new file
-	seqfile.write('>'+struct_name+'\n'+''.join(res_seq_list))
-	seqfile.close()
+for res in residues:
+	fullid = res.get_full_id() 
+	res_num = (fullid[3])[1] #parses the residue number 
+	res_num_list.append(res_num) 
+	res_type = res.get_resname() #gets the residue type in three-letter aa code
+	res_seq = seq1(res_type, undef_code='X') #converts to one-letter aa code
+	res_seq_list.append(res_seq)
+seqfile = open(struct_path+chain_name+'.seq', 'w') #writes PDB sequence to a new file
+seqfile.write('>'+chain_name+'\n'+''.join(res_seq_list))
+seqfile.close()
+#	return(res_num_list, res_seq_list)
 #print(res_num_list);print(len(res_num_list));print(res_seq_list);print(len(res_seq_list))
 
 #if a pre-aligned cma is not specified by the -cma option, runs run_gaps on the PDB sequence using ePKf profile (or a profile specified by the '-profile' option)
 print("2) Aligning the PDB sequence to the consensus alignment...\n...\n...\n...\n")
 if args.cma is None:
 	if args.profile is not None:
-		rungaps_command = './mapgaps ' + args.profile + ' ' + struct_path+struct_name+'.seq -I=0:0'
+		rungaps_command = './mapgaps ' + args.profile + ' ' + struct_path+chain_name+'.seq -I=0:0'
 	else:
-		rungaps_command = './mapgaps ePKf ' + struct_path+struct_name+'.seq + -I=0:0' #needs the '-I' option to not retain flanking segments
+		rungaps_command = './mapgaps ePKf ' + struct_path+chain_name+'.seq + -I=0:0' #needs the '-I' option to not retain flanking segments
 	FNULL = open(os.devnull, 'w')
 	subprocess.call(rungaps_command, shell=True, stdout=FNULL, stderr=subprocess.STDOUT)
 
@@ -81,7 +83,7 @@ if args.cma is None:
 if args.cma is not None:
 	cmafile = args.cma
 else:
-	cmafile = open(struct_path+struct_name+'.seq_A.mma', 'r')
+	cmafile = open(struct_path+chain_name+'.seq_A.mma', 'r')
 for cmaline in cmafile:
 	if cmaline.startswith(">"):
 		find_startpos = re.search(r'(>.*){\|([0-9]+)(\()', cmaline)
@@ -137,9 +139,10 @@ def get_pttrns(category):
 	
 ##parses the .pttrns file, maps patterns to the pdb file, and outputs a pml file
 if args.output is not None:
-	outfile = open(args.output, 'w')
+	#outfile = open(args.output, 'w')
+	outfile = args.output
 else:
-	outfile = open(struct_path+struct_name+'.pml', 'w') 
+	outfile = open(struct_path+chain_name+'.pml', 'w') 
 categories = args.category.split(',')
 if args.category_name is not None:
 	names = args.category_name.split(',')
@@ -178,7 +181,7 @@ def get_colorscale(name,rank):
 	return(color_name)
 
 print("3) Mapping BPPS patterns to the PDB structure...\n...\n...\n...\n")
-outfile.write('# Load the pdb file\n load '+args.pdb.name+'\n hide all\n show cartoon, '+struct_name+'\n color white, '+struct_name+'\n set cartoon_transparency=0.7, '+struct_name+'\n\n')
+outfile.write('# Load the pdb file\n load '+args.pdb.name+'\n hide all\n show cartoon, '+struct_name+' and chain '+args.chain+'\n color white, '+struct_name+' and chain '+args.chain+'\n set cartoon_transparency=0.7, '+struct_name+'\n\n')
 loop_count = -1
 for cat in categories:
 	loop_count = loop_count + 1
