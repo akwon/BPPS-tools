@@ -192,14 +192,14 @@ for cat in categories:
 		pttrn_rank = pttrns.index(pttrn)+1
 		pttrn_pdb_pos = cma2pdb(pttrn_consensus_pos)		
 		#print(pttrn_consensus_pos);print(pttrn_aa);print(pttrn_pdb_pos[0]);print(pttrn_pdb_pos[1])
-		if pttrn_pdb_pos[0] == "none":
-			print('\t*Pattern ' + pttrn_aa + pttrn_consensus_pos + ' for ' + names[loop_count] + ' was not mapped')
+		if str(pttrn_pdb_pos[0]) == "none":
+			print('\tPattern ' + pttrn_aa + pttrn_consensus_pos + ' for ' + names[loop_count] + ' was not mapped')
 			continue
-		if pttrn_pdb_pos[0] == "0":
-			print('\t*Pattern ' + pttrn_aa + pttrn_consensus_pos + ' for ' + names[loop_count]  + ' is not ordered in the provided PDB structure')
+		if str(pttrn_pdb_pos[0]) == "0":
+			print('\tPattern ' + pttrn_aa + pttrn_consensus_pos + ' for ' + names[loop_count]  + ' is not ordered in the provided PDB structure')
 			continue
-		if pttrn_pdb_pos[1] not in list(pttrn_aa):
-			print('\t*Pattern ' + pttrn_aa + pttrn_consensus_pos + ' for ' + names[loop_count]  + " was found as a --'" + pttrn_pdb_pos[1] +"'-- in the provided PDB structure")
+		if str(pttrn_pdb_pos[1]) not in list(pttrn_aa):
+			print('\tPattern ' + pttrn_aa + pttrn_consensus_pos + ' for ' + names[loop_count]  + " was found as a --'" + str(pttrn_pdb_pos[1]) +"'-- in the provided PDB structure")
 		#write mapped pttrns to pml
 		mapping_color = get_colorscale(colors[loop_count], pttrn_rank)
 		outfile.write('create '+names[loop_count]+'_cons'+str(pttrn_rank)+', resi '+str(pttrn_pdb_pos[0])+'\n')
