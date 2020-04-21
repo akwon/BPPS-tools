@@ -44,6 +44,8 @@ parser.add_argument('-profile', type = str, default="ePKf", help="path and name 
 parser.add_argument('-cma', type = argparse.FileType('r'), help="path and name of a cma-aligned pdb sequence. The cma alignment should correspond to the same profile used in the BPPS analysis. Providing this skips run_gaps steps.") 
 args = parser.parse_args()
 
+print(' '.join(sys.argv))
+
 ###Load the PDB structure and extract the residue sequence and numbering for the specified chain
 print("\n\n\n1) Loading the PDB structure and extracting the amino acid sequence...\n...\n...\n...\n")
 #def get_pdb_seq(pdbfile):
@@ -66,7 +68,6 @@ for res in residues:
 seqfile = open(struct_path+chain_name+'.seq', 'w') #writes PDB sequence to a new file
 seqfile.write('>'+chain_name+'\n'+''.join(res_seq_list))
 seqfile.close()
-#	return(res_num_list, res_seq_list)
 #print(res_num_list);print(len(res_num_list));print(res_seq_list);print(len(res_seq_list))
 
 #if a pre-aligned cma is not specified by the -cma option, runs run_gaps on the PDB sequence using ePKf profile (or a profile specified by the '-profile' option)
@@ -117,7 +118,7 @@ for aa in cmaseq:
 		pdb_count = pdb_count + 1
 		pdb_array.append(res_num_list[startpos+pdb_count])
 		pdb_seq_array.append(res_seq_list[startpos+pdb_count])
-#print(cma_array);print(len(cma_array));print(pdb_array);print(len(pdb_array))	
+#print(cma_array);print(len(cma_array));print(pdb_array);print(len(pdb_array));print(pdb_seq_array);print(len(pdb_seq_array))
 
 def cma2pdb(pos):
 	if int(pos) in cma_array:
@@ -199,7 +200,7 @@ for cat in categories:
 			print('\tPattern ' + pttrn_aa + pttrn_consensus_pos + ' for ' + names[loop_count]  + ' is not ordered in the provided PDB structure')
 			continue
 		if str(pttrn_pdb_pos[1]) not in list(pttrn_aa):
-			print('\tPattern ' + pttrn_aa + pttrn_consensus_pos + ' for ' + names[loop_count]  + " was found as a --'" + str(pttrn_pdb_pos[1]) +"'-- in the provided PDB structure")
+			print('\tPattern ' + pttrn_aa + pttrn_consensus_pos + ' for ' + names[loop_count]  + " was found as a '" + str(pttrn_pdb_pos[1]) +"' in the provided PDB structure")
 		#write mapped pttrns to pml
 		mapping_color = get_colorscale(colors[loop_count], pttrn_rank)
 		outfile.write('create '+names[loop_count]+'_cons'+str(pttrn_rank)+', resi '+str(pttrn_pdb_pos[0])+'\n')
